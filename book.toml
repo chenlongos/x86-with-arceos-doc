@@ -1,0 +1,10 @@
+[book]
+authors = [""]
+language = "en"
+create-missing = true
+multilingual = false
+src = "src"
+title = "辰龙系统x86启动和驱动资料"
+
+[output.html]
+site-url = "/x86-with-acreos-doc/"
