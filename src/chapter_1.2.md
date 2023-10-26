@@ -1,4 +1,8 @@
 # 显示 输出 大作业要求：
+基于项目 https://github.com/wfly1998/arceos/tree/feature/vga
+
+做扩展实现
+
 1. 参考现在的彩色实现函数
 
 2. 增加 pinfo ,pdev, pdebug 函数 
