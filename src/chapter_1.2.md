@@ -1,4 +1,4 @@
-# 显示 输出 大作业要求：
+# 显示 输出 实验要求：
 基于项目 https://github.com/wfly1998/arceos/tree/feature/vga
 
 做扩展实现
