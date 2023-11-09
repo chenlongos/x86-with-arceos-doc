@@ -10,3 +10,8 @@ make A=apps/helloworld ARCH=x86_64 LOG=trace GRAPHIC=on run
 【答】: 可能是没有切换到 feature/vga 分支
 
 
+### 错误二、虚拟机下运行1.1的测试命令 make A=apps/fs/shell ARCH=x86_64 GRAPHIC=on BLK=y run 显示找不到disk.img
+
+> **qemu-system-x86 64: -drive id-disko,if=none,format=raw,file=disk.img: Could not open 'disk.img': No such file or directory**
+
+【答】: fs依赖块设备文件，执行 make disk_img 命令生产一个disk.img即可。
