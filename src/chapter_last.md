@@ -15,3 +15,7 @@ make A=apps/helloworld ARCH=x86_64 LOG=trace GRAPHIC=on run
 > **qemu-system-x86 64: -drive id-disko,if=none,format=raw,file=disk.img: Could not open 'disk.img': No such file or directory**
 
 【答】: fs依赖块设备文件，执行 make disk_img 命令生产一个disk.img即可。
+
+### 错误三、提示 no global memory allocator found but one is required; link to std or add #[global_allocator] to a static item that implements the GlobalAlloc trait
+
+【答】: 删掉 modules/axhal/src/lib.rs 中 extren crate alloc 这行即可
