@@ -6,6 +6,7 @@
 - [第二阶段：实验：键盘驱动](./chapter_2.0.md)
   - [ ArceOS X86 输入输出设备串口代码分析](./chapter_2.1.md)
   - [ 实验要求](./chapter_2.2.md)
+  - [ 键盘驱动需求](./chapter_2.3.md)
 - [第三阶段：文件系统分析](./chapter_3.0.md)
   - [ 实验要求](./chapter_3.1.md)
 - [第四阶段：httpserver代码分析](./chapter_4.0.md)
